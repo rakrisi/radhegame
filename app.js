@@ -29,7 +29,7 @@ const app =Vue.createApp({
         },
         mayUseSpecialAttack(){
             return this.currentRound % 3 !==0;
-        }
+        },
         mayUseHeal(){
             return this.currentRound % 4 !==0;
         }
